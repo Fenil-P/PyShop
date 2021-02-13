@@ -8,7 +8,7 @@ class OfferAdmin(admin.ModelAdmin):
 
 class ProductAdmin(admin.ModelAdmin):
     list_display = ('name', 'price', 'stock')
-
+ 
 
 # Register your models here.
 admin.site.register(Offer, OfferAdmin)
